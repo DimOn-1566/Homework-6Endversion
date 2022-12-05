@@ -10,7 +10,7 @@ footer{
 }
 section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30% 30% 30%;
     gap: 10px;
     padding-left: 1%;
     /* padding-right: 5%; */
@@ -20,9 +20,10 @@ section{
    padding-right: 1%;  
    height: 100vh;
    min-width: 860px;
+   overflow: auto;
 }
 
-.block-1,.block-2,.block-3{
+.block-1,.block-2,.block-3,.block-4,.block-5{
   
     display: flex;
     flex-direction: column;
