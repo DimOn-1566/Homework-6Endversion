@@ -18,8 +18,8 @@ section{
    overflow: auto;
    padding-bottom: 3%;  
    padding-right: 1%;  
-   height: 100vh;
-   min-width: 860px;
+   height: 80vh;
+   /* min-width: 860px; */
    overflow: auto;
 }
 
