@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: relative;
+  justify-content: end;
+  position: absolute;
+  right: 0%;
+  height: 20px;
+  -webkit-animation: nav 1s linear 1 0s forwards;
+          animation: nav 1s linear 1 0s forwards;
+}
+
+@-webkit-keyframes nav {
+  0% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes nav {
+  0% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+a {
+  flex-basis: 100px;
+  text-decoration: none;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  color: black;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0%;
+}/*# sourceMappingURL=nav.css.map */
